@@ -9,8 +9,6 @@ import techblog from '../images/techblog.PNG';
 import gist from '../images/gist.PNG';
 
 function Portfolio() {
-    // ADD REPO LINKS 
-    const repoLinks = [];
     return (
         <div>
             <div class="body1">
