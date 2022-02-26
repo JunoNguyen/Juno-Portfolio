@@ -1,35 +1,18 @@
 import React from 'react';
 import './Reset.css';
 import './Portfolio.css';
-import JATE from './images/JATE.PNG';
-import './images/placeholder.jpg';
-import workboard from './images/workboard.PNG';
-import COVIDTRACKER from './images/COVID-TRACKER.PNG';
-import notetaker from './images/notetaker.PNG';
-import techblog from './images/techblog.PNG';
-import gist from './images/gist.PNG';
+import JATE from '../images/JATE.PNG';
+import workboard from '../images/workboard.PNG';
+import COVIDTRACKER from '../images/COVID-TRACKER.PNG';
+import notetaker from '../images/notetaker.PNG';
+import techblog from '../images/techblog.PNG';
+import gist from '../images/gist.PNG';
 
 function Portfolio() {
     // ADD REPO LINKS 
     const repoLinks = [];
     return (
         <div>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="https://github.com/JunoNguyen">Github</a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/juno-nguyen-16198a226/">Linkedin</a>
-                    </li>
-                    <li>
-                        <a href="mailto: junonguyen27@gmail.com">Send Email</a>
-                    </li>
-                    <li>
-                        <a href="https://drive.google.com/file/d/1EwcOM61_Pfw7VV2mqOUoCjbHzL8bwO3F/view?usp=sharing">Resume</a>
-                    </li>
-                </ul>
-            </nav>
             <div class="body1">
                 <div class="allimages">
                     <div class="imagebox">
